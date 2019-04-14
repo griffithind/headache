@@ -54,7 +54,8 @@ module Headache
     end
 
     def overflow_lines_needed
-      10 - lines % 10
+      rem = lines % 10
+      rem.zero? ? 0 : 10 - rem
     end
 
     def to_h
