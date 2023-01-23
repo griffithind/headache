@@ -18,10 +18,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.add_dependency 'fixy', '~> 0.0'
   spec.add_dependency 'activesupport', '>= 4'
-  spec.add_development_dependency 'faker', '~> 1.4'
-  spec.add_development_dependency 'rspec', '~> 3.3'
-  spec.add_development_dependency 'factory_girl', '~> 4.5'
-  spec.add_development_dependency 'bundler', '~> 1.10'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'pry', '~> 0.10'
+  spec.add_development_dependency 'faker', '~> 3.1'
+  spec.add_development_dependency 'rspec', '~> 3.12'
+  spec.add_development_dependency 'factory_girl', '~> 4.9'
+  spec.add_development_dependency 'bundler', '~> 2.4'
+  spec.add_development_dependency 'rake', '~> 13.0'
+  spec.add_development_dependency 'pry', '~> 0.14'
 end
